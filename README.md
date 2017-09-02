@@ -1,3 +1,7 @@
+See [CHANGELIST.md](CHANGELIST.md) for list of resources and changes.
+
+> Joseph Cumines <joeycumines@gmail.com>
+
 # Docker Symfony (PHP7-FPM - NGINX - MySQL - ELK)
 
 [![Build Status](https://travis-ci.org/maxpou/docker-symfony.svg?branch=master)](https://travis-ci.org/maxpou/docker-symfony)
