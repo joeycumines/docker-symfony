@@ -1,3 +1,8 @@
+## Notes
+
+- Run `scripts/build.sh && scripts/update_host.sh && scripts/up.sh` to get started.
+- The commands `mysql` and `mysqldump` can be run via the scripts provided.
+
 See [CHANGELIST.md](CHANGELIST.md) for list of resources and changes.
 
 > Joseph Cumines <joeycumines@gmail.com>

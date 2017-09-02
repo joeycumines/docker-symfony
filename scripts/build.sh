@@ -13,4 +13,4 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 cd "$DIR/.."
 
-sudo docker-compose build --rm
+sudo docker-compose build --force-rm
