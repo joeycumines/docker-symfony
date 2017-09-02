@@ -35,3 +35,14 @@ services:
         volumes_from:
             - php
             - nginx
+    migration:
+        image: mathewhall/mysql_migration
+        volumes:
+            - ./migrations:/docker-entrypoint-migrations.d/
+        links:
+            - db
+        environment:
+            MYSQL_HOST: db
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
